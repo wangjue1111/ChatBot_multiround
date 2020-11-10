@@ -1,0 +1,20 @@
+
+path: 'datas/train.txt'
+test_path: 'datas/test.txt'
+lr: 0.0002
+max_len: 10
+batch_size: 2
+per_len: 25
+embedding_size: 32
+num_layers: 2
+num_heads: 8
+hidden: 32
+epoches: 32
+dropout: 0.2
+mul_num: 10
+devices: 2
+pretrain_path:
+beam_num: 4
+beam_size: 5
+prob: 0.8
+vocab_size: 50000
